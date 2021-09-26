@@ -11,6 +11,36 @@
     <main>      
         <h1>Contact</h1>
         <section>
+            <fieldset>
+                <legend>Your Contact Inforamtion:</legend>
+                <label>
+                    Name:
+                    <input type="text" value="name">
+                </label>
+                <label>
+                    Email:
+                    <input type="text" value="email">
+                </label>
+            </fieldset>
+            <br />
+
+            <fieldset>
+                <legend>Reason for contact:</legend>
+                <label for ="reason-for-contact">What is your reason for getting in touch?</label>
+                <select name="referrer" id="reason-for-contact">
+                    <option value="New Enquiry">New Enquiry</option>
+                    <option value="Old Enquiry">Old Enquiry</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <br /><br / >
+                
+                <label for="comments">Comments:</label>
+                <textarea id="comments" placeholder="Tell me more"></textarea>
+                <br /><br />
+                
+                <input type="submit" value="Submit your reply">
+            </fieldset>
         </section>
         <br />
     </main>
