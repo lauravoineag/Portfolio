@@ -1,0 +1,83 @@
+*{
+    font-family: serif,sans-serif;
+    background-color:lightyellow
+}
+.navBar{
+    width:100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.logo{
+    width:100%;
+    text-align: center;
+    font-size: 40px;
+	
+}
+
+h1{
+    font-size:50px;
+    color:blueviolet
+}
+
+h2{
+    font-size:25px;
+}
+
+
+.images{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+img{
+    max-width: 300px;
+    margin: auto;
+}
+.me{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.qualities{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+.anime{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.federer{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+footer{
+    text-align: center; 
+}
+
+/*Projects.html file styling*/
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 100px;
+}
+
+.projectName{
+    width:100%;
+    text-align: center;
+}
