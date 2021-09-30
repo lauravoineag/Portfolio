@@ -62,6 +62,14 @@ li {
     justify-content: center;
 }
 
+.widthText{
+    width:500px;
+}
+
+ul{
+    padding:0
+}
+
 footer{
     text-align: center; 
 }
@@ -70,7 +78,27 @@ footer{
 
 .row {
     display: flex;
+    flex-direction: column;
+    text-align: center;
 }
+/*Media Query Projects Page*/
+@media only screen and (min-width: 768px) {
+    .row{
+        flex-direction:row;
+    }
+}
+/*Media Query Index Page*/
+.about{
+    display:flex;
+    flex-direction:column; 
+}
+
+@media only screen and (min-width: 768px) {
+    .about{
+        flex-direction:row;
+    }
+}
+
 
 .column {
     flex: 33.33%;
